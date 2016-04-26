@@ -2,7 +2,7 @@
 #include "ling_common.h"
 
 #include "event.h"
-#include "time.h"
+#include "l_time.h"
 
 #if LING_WITH_LIBUV
 # include <uv.h>

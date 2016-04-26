@@ -56,7 +56,7 @@
 #include "code_base.h"
 #include "proc.h"
 #include "scheduler.h"
-#include "time.h"
+#include "l_time.h"
 #include "ets.h"
 #include "list_util.h"
 

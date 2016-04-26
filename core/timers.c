@@ -39,7 +39,7 @@
 #include "proc.h"
 #include "scheduler.h"
 #include "atom_defs.h"
-#include "time.h"
+#include "l_time.h"
 
 struct etimer_t {
 	uint64_t ref_id;

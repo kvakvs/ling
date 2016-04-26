@@ -39,7 +39,7 @@
 
 #include "nalloc.h"
 #include "string.h"
-#include "limits.h"
+#include "l_limits.h"
 
 #define HASH_BUCKETS	32
 #define HASH_NODE_SIZE	4096

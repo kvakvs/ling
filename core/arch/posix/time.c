@@ -33,7 +33,7 @@
 
 #include "ling_common.h"
 
-#include "time.h"
+#include "l_time.h"
 
 #include <string.h>
 #include <time.h>

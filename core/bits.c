@@ -44,7 +44,7 @@
 #include "term.h"
 #include "term_util.h"
 #include "atom_defs.h"
-#include "limits.h"
+#include "l_limits.h"
 #include "nalloc.h"
 #include "string.h"
 #include "getput.h"
@@ -469,7 +469,7 @@ void bits_put_bignum(bits_t *bs, bignum_t *bn, uint32_t bcount, int is_le)
 
 //#define BINNODE_TATS
 #ifdef BINNODE_STATS
-#include "time.h"
+#include "l_time.h"
 
 uint64_t bn_ts_ns;
 int bn_nr_pages_in;

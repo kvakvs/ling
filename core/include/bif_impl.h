@@ -63,7 +63,7 @@
 
 #include "atoms.h"
 #include "ext_term.h"
-#include "time.h"
+#include "l_time.h"
 #include "scheduler.h"
 #include "code_base.h"
 #include "string.h"

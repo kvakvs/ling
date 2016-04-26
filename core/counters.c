@@ -41,7 +41,7 @@
 #include "ling_common.h"
 
 #include "nalloc.h"
-#include "limits.h"
+#include "l_limits.h"
 
 typedef struct counter_t counter_t;
 struct counter_t {

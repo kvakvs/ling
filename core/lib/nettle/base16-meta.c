@@ -46,7 +46,7 @@ base16_encode_init(void *ctx)
 { (void) ctx; }
 
 static unsigned
-base16_encode_update_wrapper(void *ctx UNUSED, uint8_t *dst,
+base16_encode_update_wrapper(void *ctx, uint8_t *dst,
 			     unsigned length, const uint8_t *src)
 {
   base16_encode_update(dst, length, src);

@@ -38,7 +38,7 @@
 
 #include "ling_common.h"
 
-#include "time.h"
+#include "l_time.h"
 
 #ifdef EXP_LINC_LATENCY
 

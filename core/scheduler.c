@@ -39,7 +39,7 @@
 #include "ling_common.h"
 
 #include "event.h"
-#include "time.h"
+#include "l_time.h"
 #include "hash.h"
 #include "atom_defs.h"
 #include "string.h"

@@ -1,4 +1,4 @@
-#include "libm.h"
+#include "l_libm.h"
 
 /* cosh(x) = (exp(x) + 1/exp(x))/2
  *         = 1 + 0.5*(exp(x)-1)*(exp(x)-1)/exp(x)

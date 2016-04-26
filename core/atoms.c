@@ -38,7 +38,7 @@
 #include "hash.h"
 #include "nalloc.h"
 #include "string.h"
-#include "limits.h"
+#include "l_limits.h"
 
 #define ATOMS_CHUNK_NODE_SIZE 8192
 #define ATOMS_NAME_NODE_SIZE 32768

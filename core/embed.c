@@ -33,7 +33,7 @@
 
 #include <stdint.h>
 
-#include "limits.h"
+#include "l_limits.h"
 #include "term.h"
 #include "heap.h"
 #include "mm.h"

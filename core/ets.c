@@ -43,7 +43,7 @@
 #include "hash.h"
 #include "string.h"
 #include "scheduler.h"
-#include "time.h"
+#include "l_time.h"
 
 #define ETS_HASH_HOME_SIZE		4096
 #define ETS_ORDSET_HOME_SIZE	4096

@@ -50,7 +50,7 @@
 # include <uv.h>
 #endif
 
-#include "time.h"
+#include "l_time.h"
 #include "netfe.h"
 
 #define IFNAME0	'x'

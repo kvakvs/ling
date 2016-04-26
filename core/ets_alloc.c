@@ -43,7 +43,7 @@
 
 #include "nalloc.h"
 #include "bits.h"
-#include "limits.h"
+#include "l_limits.h"
 
 #define ETS_ALLOC_INIT_SIZE 16384
 #define ETS_ALLOC_EXT_SIZE	16384

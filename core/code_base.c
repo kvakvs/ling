@@ -44,7 +44,7 @@
 #include "atom_defs.h"
 #include "catch_tab.h"
 #include "hash.h"
-#include "limits.h"
+#include "l_limits.h"
 
 #include "code_base.inc"
 

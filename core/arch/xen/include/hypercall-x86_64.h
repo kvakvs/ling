@@ -34,7 +34,7 @@
 #ifndef __HYPERCALL_X86_64_H__
 #define __HYPERCALL_X86_64_H__
 
-#include "limits.h"
+#include "l_limits.h"
 
 #include "xen/xen.h"
 #include "xen/sched.h"

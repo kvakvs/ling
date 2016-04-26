@@ -44,7 +44,7 @@
 #include "string.h"
 #include "scheduler.h"
 #include "outlet.h"
-#include "limits.h"
+#include "l_limits.h"
 #include "timers.h"
 
 proc_t *proc_make(term_t leader)

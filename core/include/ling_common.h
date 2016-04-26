@@ -41,7 +41,7 @@
 #include "os.h"
 
 #include "lassert.h"
-#include "limits.h"
+#include "l_limits.h"
 #include "sys_stats.h"
 
 #ifdef LING_DEBUG

@@ -43,7 +43,7 @@
 
 //#define NALLOC_STATS
 #ifdef NALLOC_STATS
-#include "time.h"
+#include "l_time.h"
 
 uint64_t na_ts_ns;
 int na_nr_pages_in;
