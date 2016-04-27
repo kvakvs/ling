@@ -7,11 +7,16 @@ add_definitions(
     #-DLWIP_TIMEVAL_PRIVATE=0
     -DLING_WITH_LIBUV=1
     -DHAVE_CONFIG_H
+    -DLING_DEBUG=1
+    -DLING_POSIX=1
+    -DDEBUG_UNUSED_MEM
 
     -Wall
     -Wno-nonnull -std=gnu99
     -fno-omit-frame-pointer
     -fno-stack-protector -U_FORTIFY_SOURCE -ffreestanding
+
+    -O0 -g -ggdb
     )
 
 include_directories(
@@ -905,9 +910,10 @@ core/bignum/logtab.h
 core/bignum/bignum.h
 core/bignum/mpi.h
 core/bignum/mpi-config.h
+.railing/embedfs.o
     )
 
-LINK_LIBRARIES(${PROJECT_NAME}
+LINK_LIBRARIES( #${PROJECT_NAME}
     m gmp pthread dl
     )
 add_executable(${PROJECT_NAME} ${SRC_LIST})

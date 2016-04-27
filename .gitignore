@@ -1,3 +1,6 @@
+CMakeLists.txt.user
+_build/*
+
 *.d
 *.o
 *.beam

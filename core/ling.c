@@ -249,17 +249,18 @@ void fatal_error(const char *fmt, ...)
 
 #ifdef LING_POSIX
 	fprintf(stderr, "*** CRASH: %s\n", buffer);
-	exit(42);
+    abort();
+    //exit(42);
 #endif
 	printk("*** CRASH: %s\r\n", buffer);
-	while (1)
-	{
+    while (1)
+    {
 #ifdef LING_DEBUG
-		// Provide for attaching the debugger to examine the crash
-		gdb_break();
+        // Provide for attaching the debugger to examine the crash
+        gdb_break();
 #endif
-		yield();
-	}
+        yield();
+    }
 }
 
 void __assert_fail(const char *assertion,
@@ -349,10 +350,10 @@ static void spawn_init_start(int argc, char **cmd_line)
 	/* UNREACHANBLE */
 }
 
-void abort(void)
-{
-	fatal_error("aborted");
-}
+//void abort(void)
+//{
+//	fatal_error("aborted");
+//}
 
 #ifdef LING_XEN
 static void print_start_info(void) {

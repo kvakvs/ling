@@ -1,5 +1,5 @@
 LING_VER := 0.5.0
-OTP_VER := 17
+OTP_VER := 18
 
 ifeq ($(ERL_BIN),)
 ERL := erl
@@ -129,7 +129,7 @@ ifdef LING_XEN
 LING_PLATFORM := xen
 LING_OS := ling
 ifdef LING_LINUX
-CC := gcc
+#CC := gcc
 else ifdef LING_DARWIN
 CC := x86_64-pc-linux-gcc
 endif
@@ -138,7 +138,7 @@ endif
 ifdef LING_POSIX
 LING_PLATFORM := unix
 ifdef LING_LINUX
-CC := gcc
+#CC := gcc
 LDFLAGS += -nostdlib
 LING_OS := linux
 else ifdef LING_DARWIN
